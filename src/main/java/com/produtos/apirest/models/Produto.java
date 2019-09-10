@@ -22,7 +22,7 @@ public class Produto implements Serializable{
 	private long id;
 	
 	@NotNull
-	private String name;
+	private String username;
 	
 	@NotNull
 	private String phone;
@@ -38,10 +38,10 @@ public class Produto implements Serializable{
 		this.id = id;
 	}
 	public String getName() {
-		return nome;
+		return username;
 	}
-	public void setName(String nome) {
-		this.nome = nome;
+	public void setName(String username) {
+		this.username = username;
 	}
 	public String getPhone() {
 		return phone;

@@ -22,13 +22,13 @@ public class Produto implements Serializable{
 	private long id;
 	
 	@NotNull
-	private String nome;
+	private String name;
 	
 	@NotNull
-	private BigDecimal quantidade;
+	private String phone;
 	
 	@NotNull
-	private BigDecimal valor;
+	private String price;
 	
 	
 	public long getId() {
@@ -37,23 +37,23 @@ public class Produto implements Serializable{
 	public void setId(long id) {
 		this.id = id;
 	}
-	public String getNome() {
+	public String getName() {
 		return nome;
 	}
-	public void setNome(String nome) {
+	public void setName(String nome) {
 		this.nome = nome;
 	}
-	public BigDecimal getQuantidade() {
-		return quantidade;
+	public String getPhone() {
+		return phone;
 	}
-	public void setQuantidade(BigDecimal quantidade) {
-		this.quantidade = quantidade;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
-	public BigDecimal getValor() {
-		return valor;
+	public String getPrice() {
+		return price;
 	}
-	public void setValor(BigDecimal valor) {
-		this.valor = valor;
+	public void setPrice(String price) {
+		this.price = price;
 	}
 	
 	

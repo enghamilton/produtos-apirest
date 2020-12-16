@@ -38,8 +38,8 @@ public class SwaggerConfig {
                 "API REST de cadastro de eventos",
                 "1.0",
                 "Terms of Service",
-                new Contact("Michelli Brito", "https://www.youtube.com/channel/UC2WbG8UgpPaLcFSNJYwtPow?view_as=subscriber",
-                        "michellidibrito@gmail.com"),
+                new Contact("Hamilton Kamiya", "https://www.youtube.com/user/hamiltonkamiya",
+                        "hamiltonkamiya@gmail.com"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()
         );
